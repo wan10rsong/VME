@@ -6,7 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #cfd0e3;
 }
 
 .container {
@@ -30,6 +30,7 @@ body {
     border: none;
     outline: none;
     background-color: #d9d9d9;
+    border-radius: 5px;
 }
 
 .btn {
@@ -73,4 +74,11 @@ body {
 
 .vmeResult.green {
     background-color: green;
+}
+
+@media (max-width: 640px) { 
+  .container {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
