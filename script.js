@@ -8,7 +8,7 @@ function calculateVME() {
 
     var vmeResult = document.getElementById('vmeResult');
 
-    // Remove todas as classes existentes do elemento vmeResult
+    
     vmeResult.classList.remove('red', 'yellow', 'green');
 
     if (vme > 25) {
