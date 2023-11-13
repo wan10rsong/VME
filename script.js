@@ -8,7 +8,9 @@ function calculateVME() {
 
     var vmeResult = document.getElementById('vmeResult');
 
-    
+    var risco = document.getElementById('risco').value;
+    document.getElementById('resultado').innerHTML = risco
+
     vmeResult.classList.remove('red', 'yellow', 'green');
 
     if (vme > 25) {
