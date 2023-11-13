@@ -7,9 +7,13 @@
     <link rel="stylesheet" href="style.css">
     <title>VME - Calculator</title>
 </head>
+
 <body>
     <div class="container">
         <form id="inputForm" class="inputform">
+            <label for="risco">Descrição do Risco:</label>
+            <input type="text" id="risco" placeholder="Insira a descrição do risco" required>
+
             <label for="value1">Impacto:</label>
             <input type="number" id="value1" placeholder="Insira o valor impacto" required>
 
@@ -20,10 +24,12 @@
         </form>
         <div id="resultContainer">
             <h2>Resultados</h2>
+            <p id="resultado"></p>
             <p id="vmeResult" class="vmeResult"></p>
         </div>
     </div>
 
     <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
